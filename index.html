@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JSWDev</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="build/css/app.css">
+</head>
+
+<body>
+    <header id="home" class="header">
+        <div class="contenedor contenido-header">
+            <a href="/">
+                <img loading="lazy" class="imagen-logo" src="build/img/logo.png" alt="Logo">
+            </a>
+            <nav class="navegacion-principal">
+                <a href="#home">Home</a>
+                <a href="#projects">Projects</a>
+                <a href="#skills">Technical Skills</a>
+                <a href="#about">About</a>
+                <a href="#contact">Contact</a>
+            </nav>
+
+        </div>
+    </header>
+
+    <section id="projects" class="contenedor sobre-projects">
+        <h2>PROJECTS</h2>
+        <div class="proyectos">
+            <div>
+                <video autoplay muted loop src="build/video/MOBILE DESKTOP BIENES RAICES.mp4" type="video/mp4"> </video>
+                <a href="https://boring-jang-c1734a.netlify.app/">
+                    <h3>REAL STATE</h3>
+                </a>
+            </div>
+            <div>
+                <video autoplay muted loop src="build/video/MOBILE DESKTOP COOPERS.mp4" type="video/mp4"> </video>
+                <h3>COOPERS VETERINARY CLINIC</h3>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="sobre-habilidades ">
+        <div class="contenedor">
+            <h2>TECHNICAL SKILLS</h2>
+            <ul class="habilidades"></ul>
+            <ul class="habilidades-segundas"></ul>
+        </div>
+    </section>
+
+    <h2 id="about">ABOUT</h2>
+    <section class="sobre contenedor" id="animado">
+        <div class="imagen">
+            <img class="front" src="build/img/about1.jpg" alt="Acerca">
+            <!-- <img class="end" src="build/img/back_about.png" alt="Acerca Marco"> -->
+        </div>
+        <div class="contenido-acerca">
+            <h3> I AM WEB DEVELOPER</h3>
+            <p>With two years of personal experience, building websites using the best practices.</p>
+            <p>I also have a passion for design. Given that producing websites requires the combination of design, image and video.</p>
+            <p> I enjoy make sites for business, interactive and ease to use, always thinking on security of users.</p>
+        </div>
+    </section>
+
+
+    <footer id="contact" class="site-footer">
+        <div class="foteer">
+            <img loading="lazy" class="imagen-banda-azul" src="build/img/banda_azul_footer.jpg" alt="Banda Azul">
+            <div class="overlay">
+                <div class="contenedor contacto">
+                    <h2>CONTACT</h2>
+                    <legend>COMPLET THE FORM</legend>
+                    <form class="form">
+                        <div class="formulario">
+                            <fieldset>
+                                <label for="nombre">NAME:</label>
+                                <input id="nombre" type="text" name="Nombre" placeholder="Your name">
+                            </fieldset>
+                            <fieldset>
+                                <label for="correo">E-MAIL:</label>
+                                <input id="correo" type="email" name="Correo" placeholder="Your e-mail">
+                            </fieldset>
+                            <fieldset>
+                                <label for="telefono">PHONE NUMBER:</label>
+                                <input id="telefono" type="text" name="Telefono" placeholder="Your phone number">
+                            </fieldset>
+                            <fieldset>
+                                <label for="asunto">MESSAGE:</label>
+                                <textarea id="asunto" name="Asunto" placeholder="Write a message"></textarea>
+                            </fieldset>
+                        </div>
+                        <div class="alinear-derecha">
+                            <input class="boton-formulario" type="submit" Value="Submit">
+                        </div>
+                        <div class="animacion"></div>
+                        <div class="vacio"></div>
+                    </form>
+
+                    <div class="sitios">
+                        <img loading="lazy" class="barra-lateral" src="build/img/barra_footer_links.png" alt="Barra Lateral">
+                        <a href="https://linkedin.com/in/josé-de-jesús-salazar-martínez-42254b233">
+                            <img loading="lazy" class="logo" src="build/img/logo_kinkedin.png" alt="Logo Linkedin"></a>
+                        <a href="https://github.com/JesusSalazar1997">
+                            <img loading="lazy" class="logo" src="build/img/logo_github.png" alt="Logo GitHub"> </a>
+                        <img loading="lazy" class="barra-lateral" src="build/img/barra_footer_links.png" alt="Barra Lateral">
+
+                    </div>
+                    <p class="copyright "><span>Created by Jesús Salazar</span> All rights reserved &copy;</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="build/js/app.js"></script>
+    <script src="build/js/formulario.js"></script>
+</body>
+
+</html>
